@@ -1,7 +1,9 @@
 # PrusaSlicer M73 to M117 converter
 Converts Prusa `M73` .gcode commands to Marlin `M117`. `M73` command's purpose is to show remaining time on Prusa3D printers.  
-Text output is optimised for Ender 3 default 128*64 screen. Tested with default Python 3 and Marlin 2.0.
-`M73` command is inserted to gcode by PrusaSlicer itself. My script only replaces this command to Marlin-suitable `M117`. If you need `M73` in your gcode, you simply don't have to run this script.
+Text output is optimised for Ender 3 default 128*64 screen. Tested with plain Python 3.10 and Marlin 2.0.
+
+**Note:**  
+`M73` command is inserted to gcode by PrusaSlicer itself. My script only replaces this command to Marlin-suitable `M117`. If you need `M73` in your gcode, you have to follow only step 0 of "Installation".
 
 **Preview:**  
 `01:05 left / 34% done`
